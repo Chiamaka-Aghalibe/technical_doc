@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <meta name="viewport" content= "width=device-width, initial-scale=1" />
+        <style>
+            *{
+                color: white;
+            }
+            p {        
+                font-weight: 300;
+                font-family: 'Open Sans', Arial, sans-serif;
+            }   
+            header{
+                font-size: 30px;                            
+            } 
+            .smaller-image{
+                width: 100%;
+                height: 100%;
+            }    
+            .image-div {
+                min-width: 400px;
+                height: auto;
+                margin: 30px 0px;
+            }                
+            .sidenav {
+                height: 100%;
+                width:200px;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                background-color:rgb(48, 44, 44);
+                overflow-y: scroll;
+                padding-top: 20px;
+                padding-bottom:20px;
+            }
+            .sidenav a {
+                padding: 10px 20px;
+                text-decoration: none;
+                font-size: 20px;
+                font-family: 'Open Sans', Arial, sans-serif;
+                color:#d63384;
+                display: block;
+                border-bottom: 1px solid grey;
+                cursor: pointer;        
+            }
+            .link-style{
+                border-top: 1px solid grey;
+            }
+            h5{
+                color:#d63384;
+            }
+
+            .sidenav a {
+                font-size: 18px;
+            }
+            .sidenav a:hover {
+                color: gray;
+            }
+            .sidenav h6 {
+                border-bottom: 1px solid grey;                        
+            }
+            .main{
+                margin-left: 200px;
+                font-size: 17px;
+                font-family: 'Open Sans', Arial, sans-serif;
+                padding: 0px 10px;
+                font-weight: 300;
+                background-color:rgb(46, 41, 41);                
+            }                                                                         
+            footer {
+                display: flex;
+                justify-content: center;
+                padding: 20px;
+                font-weight:100;
+            }
+            @media screen and (max-height: 450px) {
+                .sidenav{ padding-top: 15px;}
+                .sidenav a { font-size: 17px;}
+            }
+        </style>
+    </head>
+    <body>
+        <div class= "sidenav">
+            <h5> Technical Analysis</h5>
+            <a href="#candlesticks" class="link-style"> Candlesticks</a>
+            <a href="#support_and_resistance"> Support and Resistance</a>
+            <a href="#technical_indicators"> Technical Indicators</a>
+            <a href="#chart_patterns"> Chart patterns</a>
+            <a href="#trend_lines"> Trend Lines</a>
+            <a href="#channels"> Channels</a>
+        </div>    
+        <div class="main">
+            <main id="main-doc">
+                <section class= "main-section" id="Introduction">
+                    <header> Introduction </header><br>
+                    <p> 
+                        The Foreign Exchange market, also referred to as the "Forex" or "Retail forex" or “FX” or "Spot FX" is the largest financial market in the world, with a volume of about $2 trillion a day.<br>
+                        If you compare that to the $25 billion a day volume that the New York Stock Exchange(NYSE) trades,you can easily see how enormous the Foreign Exchange really is.<br>
+                        It actually equates to more than three times the total amount of the stocks and futures markets combined!<br>                    
+                         <code>Types of trading</code><br>
+                        <span></span>Basically, we have 2 methods of financial trading when approaching the market;<br>
+                        <ol>
+                            <li> Technical Analysis</li>
+                            <li>Fundamental Analysis</li>
+                        </ol>                    
+                    </p>
+                </section>                
+                <h5> Fundamental Analysis </h5>
+                <p>Fundamental analysis is a way of looking at the market through economic, social and political forces that affect supply and demand.(Yada yada yada.)<br> 
+                In other words, you look at whose economy is doing well, and whose economy sucks. 
+                The idea behind this type of analysis is that if a country’s economy is doing well, their currency will also be doing well. This is because the better a country’s economy, the more trust other countries have in that currency.  
+                For example, the U.S. dollar has been gaining strength because the U.S. economy is gaining strength.<br>
+                As the economy gets better   rest rates get higher to control inflation.</p>
+                <h5> Technical Analysis</h5>
+                <p>Technical analysis is the study of price movement.<br>
+                In one word, technical analysis = charts.The idea is that a person can look at historical price movements, and, based on the price action, can determine at some level where the price will go.<br>
+                By looking at charts, you can identify trends and patterns which can help you find good trading opportunities.</p>
+                <div class="image-div">
+                    <img src="https://images.unsplash.com/photo-1614028674026-a65e31bfd27c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" alt="image of a chart" class="smaller-image"> </img>                
+                </div>
+                <section class= "main-section" id= "candlesticks">
+                    <header> Candlesticks </header>
+                    <p>Back in the day when Godzilla was still a cute little lizard, the Japanese created their own old school version of technical analysis to trade rice.<br>
+                       A westerner by the name of Steve Nison “discovered” this secret technique on how to read charts from a fellow Japanese broker and Japanese candlesticks lived happily ever after.<br>
+                       Steve researched, studied, lived, breathed, ate candlesticks, began writing about it and slowly grew in popularity in 90s.<br>
+                       To make a long story short, without Steve Nison, candle charts might have remained a buried secret. Steve Nison is Mr. Candlestick.<br>
+                       Okay so what the heck are candlesticks? The best way to explain is by using a picture:                    
+                    </p>    
+                    <div class="image-div">
+                        <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="image of japanese candlesticks" class="smaller-image"></img>
+
+                    </div>
+                    <p> 
+                        <code>Types of Japanese Candlesticks                
+                        </code>
+                    </p>                    
+                        <ul>
+                            <li>Basic candle stick patterns:</li>
+                            <ul>                
+                                <li>Spinning tops</li>
+                                 <li>Marubozu</li>
+                                <li>Doji</li>
+                            </ul>    
+                        </ul>
+                        <ul>
+                            <li>Reversal Candlestick Patterns:</li>        
+                            <ul>
+                                <li>Inverted Hammer</li>
+                                <li>Shooting star</li>
+                                <li>Hammer</li>
+                                <li>Hanging man</li>
+                            </ul>
+                        </ul>
+                    </p>
+                </section>
+                <section class= "main-section" id= "support_and_resistance">
+                    <header> Support and Resistance </header>
+                    <p>
+                        Support and resistance is one of the most widely used concepts in trading.<br>
+                        Strangely enough, everyone seems to have their own idea on how you should measure support and resistance.<br>
+                        <ul>
+                            <code> Things to know about S&R:</code>
+                            <li>When the market passes through resistance,that resistance now becomes support.</li>
+                            <li>The more often price tests a level of resistance or support without breaking it, the stronger the area of resistance or support is.</li>
+                            <li>One thing to remember is that support and resistance levels are not exact numbers.<br> Often times you will see a support or resistance level that appears broken, but soon after find out that the market was just testing it.<br> With candlestick charts, these "tests" of support and resistance are usually represented by the candlestick shadows.</li> 
+                        </ul>
+                    </p>
+                </section>
+                <section class= "main-section" id= "technical_indicators">
+                    <header> Technical Indicators </header>
+                    <p>
+                        <code>Types of technical Indicators</code>
+                        <ul>
+                            <li>Moving averages (Smooth and Exponential)</li>
+                            <li>Bollinger Bands</li>
+                            <li>Relative strength index (RSI)</li>
+                            <li>MACD (moving average convergence divergence)</li>
+                            <li>Parabolic SAR</li>
+                            <li>Stochastics</li>
+                        </ul>
+                    </p>
+                </section>
+                <section class= "main-section" id= "chart_patterns">
+                    <header> Chart Patterns </header>
+                    <p>
+                        <code>Types of chart patterns</code>
+                        <ul>
+                            <li> Double-top </li>
+                            <li> Double-bottom</li>
+                            <li> Head and shoulders</li>
+                            <li> Inverse head and shoulders</li>
+                            <li> Descending Triangle</li>
+                            <li> Ascending Triangle</li>
+                            <li> Symmetrical Triangle</li>
+                        </ul>
+                    </p>
+                </section>
+                <section class="main-section" id= "trend_lines">
+                    <header>Trend Lines</header>
+                    <p>
+                        Trend lines are probably the most common form of technical analysis used today.They are probably one of the most underutilized as well.<br>
+                        If drawn correctly, they can be as accurate as any other method. Unfortunately, most traders don’t draw them correctly or they try to make the line fit the market instead of the other way around.
+                        In their most basic form, an uptrend line is drawn along the bottom of easily identifiable support areas (valleys). In a downtrend, the trend line is drawn along the top of easily identifiable resistance areas (peaks).
+                        
+                    </p>
+                </section>
+                <section class="main-section" id="channels">
+                    <header> Channels</header>
+                    <p>
+                    If we take this trend line theory one step further and draw a parallel line at the same angle of the uptrend or downtrend, we will have created a channel.<br>
+                    To create an up (ascending) channel, simply draw a parallel line at the same angle as an uptrend line and then move that line to position where it touches the most recent peak.<br>
+                    This should be done at the same time you create the trend line.<br>
+                    To create a down (descending) channel, simple draw a parallel line at the same angle as the downtrend line and then move that line to a position where it touches the most recent valley.<br>
+                    This should be done at the same time you created the trend line.<br> 
+                    When prices hit the bottom trend line this may be used as a buying area. When prices hit the upper trend line this may be used as a selling area. 
+                    </p>
+                </section>
+            </main>
+            <footer>
+                <code style="color: white">Obuteakunuba copyright 2021</code>
+            </footer>
+        </div>
+    </body>
+</html>
